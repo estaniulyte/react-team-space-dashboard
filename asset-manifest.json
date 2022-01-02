@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-team-space-dashboard/static/css/main.e5255047.css",
+    "main.js": "/react-team-space-dashboard/static/js/main.36bdea54.js",
+    "static/js/787.c83bddd3.chunk.js": "/react-team-space-dashboard/static/js/787.c83bddd3.chunk.js",
+    "index.html": "/react-team-space-dashboard/index.html",
+    "main.e5255047.css.map": "/react-team-space-dashboard/static/css/main.e5255047.css.map",
+    "main.36bdea54.js.map": "/react-team-space-dashboard/static/js/main.36bdea54.js.map",
+    "787.c83bddd3.chunk.js.map": "/react-team-space-dashboard/static/js/787.c83bddd3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5255047.css",
+    "static/js/main.36bdea54.js"
+  ]
+}
