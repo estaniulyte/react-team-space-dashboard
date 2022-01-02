@@ -1,0 +1,17 @@
+@import 'base/base';
+@import 'mixins/mixins';
+@import 'base/colors';
+@import 'src/styles/base/colors';
+@import 'src/styles/base/typography';
+@import 'src/styles/base/spacings';
+
+body {
+  margin: auto;
+  max-width: 1920px;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
