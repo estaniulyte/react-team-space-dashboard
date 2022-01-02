@@ -1,0 +1,12 @@
+@import 'src/styles/index';
+
+.header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    background-color: $color-electric-violet;
+    color: $color-white;
+}
