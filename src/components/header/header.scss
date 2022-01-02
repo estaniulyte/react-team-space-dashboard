@@ -9,4 +9,11 @@
     align-items: center;
     background-color: $color-electric-violet;
     color: $color-white;
+    padding: 0 48px;
+
+    &__logo{
+        img {
+            width: 115px;
+        }
+    }
 }
