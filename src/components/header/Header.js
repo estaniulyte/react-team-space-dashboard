@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "assets/logo-white.svg"
-import NotificationsIcon from "assets/notifications.svg"
+import Logo from "assets/icons/logo-white.svg"
+import NotificationsIcon from "assets/icons/notifications.svg"
 
 import "./header.scss"
 import Tabs from "./components/tabs";
