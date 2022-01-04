@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <div className="header__buttons">
         <button className="header__buttons__notifications">
-          <img src={NotificationsIcon} />
+          <img src={NotificationsIcon} alt="notifications icon" />
         </button>
         <UserProfileButton />
       </div>

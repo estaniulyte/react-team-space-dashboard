@@ -27,7 +27,7 @@ const UserProfileButton = () => {
       role="button"
       tabIndex={0}
     >
-      <img className="user-profile-button__image" src="https://i.pravatar.cc/40" alt="profile image" />
+      <img className="user-profile-button__image" src="https://i.pravatar.cc/40" alt="profile" />
       <HeartIcon className="user-profile-button__icon" />
       {isComponentVisible && <UserProfileWidget />}
     </div>
