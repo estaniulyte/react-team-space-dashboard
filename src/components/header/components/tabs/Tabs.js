@@ -1,4 +1,7 @@
 import React from "react";
+import HomeIcon from "assets/icons/home.svg"
+import BookmarkIcon from "assets/icons/bookmark.svg"
+import CompassIcon from "assets/icons/compass.svg"
 
 import "./tabs.scss";
 
@@ -7,20 +10,20 @@ const Tabs = () => {
     {
       name: "Dashboard",
       link: "/",
-      imgAlt: "Dashboard logo",
-      imgSrc: "Dashboard",
+      imgAlt: "Home icon",
+      imgSrc: HomeIcon,
     },
     {
       name: "Reservations",
       link: "/reservations",
-      imgAlt: "Reservations logo",
-      imgSrc: "Dashboard",
+      imgAlt: "Bookmark logo",
+      imgSrc: BookmarkIcon,
     },
     {
       name: "Eat-out",
       link: "/eat-out",
-      imgAlt: "Eat put logo",
-      imgSrc: "Dashboard",
+      imgAlt: "Compass logo",
+      imgSrc: CompassIcon,
     },
   ];
 
@@ -29,6 +32,7 @@ const Tabs = () => {
       <ul className="tabs__list">
         {tabItems.map((item) => (
           <li className="tabs__list__item" key={item.link}>
+            <img src={item.imgSrc} alt={item.alt} />
             {item.name}
           </li>
         ))}

@@ -2,12 +2,19 @@
 
 .tabs {
   &__list {
+    align-items: center;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
+    list-style-type: none;
 
     &__item {
       width: 164px;
+      align-items: center;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
     }
   }
 }
