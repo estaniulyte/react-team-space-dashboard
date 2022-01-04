@@ -1,7 +1,9 @@
 import React from "react";
 import Logo from "assets/logo-white.svg"
+import NotificationsIcon from "assets/notifications.svg"
 
 import "./header.scss"
+import Tabs from "./components/tabs";
 
 const Header = () => {
   return (
@@ -10,10 +12,12 @@ const Header = () => {
         <img src={Logo} alt="Logo" />
       </div>
       <div className="header__tabs">
-        Tabs
+        <Tabs />
       </div>
       <div className="header__buttons">
-        Buttons
+        <button>
+          <img src={NotificationsIcon} />
+        </button>
       </div>
     </header>
   )

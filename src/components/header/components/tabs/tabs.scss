@@ -1,0 +1,13 @@
+@import 'src/styles/index';
+
+.tabs {
+  &__list {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
+    &__item {
+      width: 164px;
+    }
+  }
+}
