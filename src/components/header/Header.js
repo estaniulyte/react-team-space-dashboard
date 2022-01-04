@@ -4,6 +4,7 @@ import NotificationsIcon from "assets/notifications.svg"
 
 import "./header.scss"
 import Tabs from "./components/tabs";
+import UserProfileButton from "./components/userProfileButton";
 
 const Header = () => {
   return (
@@ -15,9 +16,10 @@ const Header = () => {
         <Tabs />
       </div>
       <div className="header__buttons">
-        <button>
+        <button className="header__buttons__notifications">
           <img src={NotificationsIcon} />
         </button>
+        <UserProfileButton />
       </div>
     </header>
   )
