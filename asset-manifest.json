@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/react-team-space-dashboard/static/css/main.e488c99d.css",
-    "main.js": "/react-team-space-dashboard/static/js/main.b84873bb.js",
+    "main.css": "/react-team-space-dashboard/static/css/main.8d6cfc3b.css",
+    "main.js": "/react-team-space-dashboard/static/js/main.27747e2e.js",
     "static/js/787.c83bddd3.chunk.js": "/react-team-space-dashboard/static/js/787.c83bddd3.chunk.js",
     "static/media/logo-white.svg": "/react-team-space-dashboard/static/media/logo-white.1230c29ab21d8b4e221e78e09926cd2d.svg",
+    "static/media/settings.svg": "/react-team-space-dashboard/static/media/settings.dbfe379f713ad4d757e030175afbcc6d.svg",
     "index.html": "/react-team-space-dashboard/index.html",
-    "main.e488c99d.css.map": "/react-team-space-dashboard/static/css/main.e488c99d.css.map",
-    "main.b84873bb.js.map": "/react-team-space-dashboard/static/js/main.b84873bb.js.map",
+    "static/media/notifications.svg": "/react-team-space-dashboard/static/media/notifications.e6b831f080c29c371dc11f7cbb11416e.svg",
+    "static/media/log-out.svg": "/react-team-space-dashboard/static/media/log-out.5ac1f141acc22125e31b6a0525f1db75.svg",
+    "static/media/heart.svg": "/react-team-space-dashboard/static/media/heart.241399a214dd4328db1caa1adff7e402.svg",
+    "main.8d6cfc3b.css.map": "/react-team-space-dashboard/static/css/main.8d6cfc3b.css.map",
+    "main.27747e2e.js.map": "/react-team-space-dashboard/static/js/main.27747e2e.js.map",
     "787.c83bddd3.chunk.js.map": "/react-team-space-dashboard/static/js/787.c83bddd3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e488c99d.css",
-    "static/js/main.b84873bb.js"
+    "static/css/main.8d6cfc3b.css",
+    "static/js/main.27747e2e.js"
   ]
 }
