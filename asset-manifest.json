@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-team-space-dashboard/static/css/main.8d6cfc3b.css",
-    "main.js": "/react-team-space-dashboard/static/js/main.27747e2e.js",
+    "main.css": "/react-team-space-dashboard/static/css/main.6abedda4.css",
+    "main.js": "/react-team-space-dashboard/static/js/main.6272c984.js",
     "static/js/787.c83bddd3.chunk.js": "/react-team-space-dashboard/static/js/787.c83bddd3.chunk.js",
     "static/media/logo-white.svg": "/react-team-space-dashboard/static/media/logo-white.1230c29ab21d8b4e221e78e09926cd2d.svg",
     "static/media/settings.svg": "/react-team-space-dashboard/static/media/settings.dbfe379f713ad4d757e030175afbcc6d.svg",
@@ -9,12 +9,15 @@
     "static/media/notifications.svg": "/react-team-space-dashboard/static/media/notifications.e6b831f080c29c371dc11f7cbb11416e.svg",
     "static/media/log-out.svg": "/react-team-space-dashboard/static/media/log-out.5ac1f141acc22125e31b6a0525f1db75.svg",
     "static/media/heart.svg": "/react-team-space-dashboard/static/media/heart.241399a214dd4328db1caa1adff7e402.svg",
-    "main.8d6cfc3b.css.map": "/react-team-space-dashboard/static/css/main.8d6cfc3b.css.map",
-    "main.27747e2e.js.map": "/react-team-space-dashboard/static/js/main.27747e2e.js.map",
+    "static/media/home.svg": "/react-team-space-dashboard/static/media/home.15619fa12b4dfbc5618b5d2497b1ea3a.svg",
+    "static/media/compass.svg": "/react-team-space-dashboard/static/media/compass.258946e11473530ce30a0a6d163d8af9.svg",
+    "static/media/bookmark.svg": "/react-team-space-dashboard/static/media/bookmark.831b379d5818aead077232708ef1d06f.svg",
+    "main.6abedda4.css.map": "/react-team-space-dashboard/static/css/main.6abedda4.css.map",
+    "main.6272c984.js.map": "/react-team-space-dashboard/static/js/main.6272c984.js.map",
     "787.c83bddd3.chunk.js.map": "/react-team-space-dashboard/static/js/787.c83bddd3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d6cfc3b.css",
-    "static/js/main.27747e2e.js"
+    "static/css/main.6abedda4.css",
+    "static/js/main.6272c984.js"
   ]
 }
