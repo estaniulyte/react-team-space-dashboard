@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import classNames from "classnames";
+
 import HomeIcon from "assets/icons/home.svg"
 import BookmarkIcon from "assets/icons/bookmark.svg"
 import CompassIcon from "assets/icons/compass.svg"
-import classNames from "classnames";
 
 import "./tabs.scss";
 
@@ -34,9 +35,11 @@ const Tabs = () => {
     <nav className="tabs">
       <ul className="tabs__list">
         {tabItems.map((item, i) => (
-          <button className="tabs__list__item" key={item.link} onClick={() => setIsActive(i)}
+          <button
+            key={item.link}
+            onClick={() => setIsActive(i)}
             className={classNames("tabs__list__item", {
-              "tabs__list__item--active": i == isActive,
+              "tabs__list__item--active": i === isActive,
             })}
           >
             <img src={item.imgSrc} alt={item.alt} />
