@@ -1,3 +1,3 @@
-import UserProfileWidget from "./userProfileWidget.js";
+import UserProfileWidget from "./UserProfileWidget";
 
 export default UserProfileWidget;

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import classNames from "classnames";
 
 import HomeIcon from "assets/icons/home.svg"
@@ -35,16 +36,21 @@ const Tabs = () => {
     <nav className="tabs">
       <ul className="tabs__list">
         {tabItems.map((item, i) => (
-          <button
-            key={item.link}
-            onClick={() => setIsActive(i)}
-            className={classNames("tabs__list__item", {
-              "tabs__list__item--active": i === isActive,
-            })}
+          <NavLink
+            key={item.name}
+            to={item.link}
+            className="tabs__list__item"
           >
-            <img src={item.imgSrc} alt={item.alt} />
-            {item.name}
-          </button>
+            <button
+              onClick={() => setIsActive(i)}
+              className={classNames("tabs__list__item", {
+                "tabs__list__item--active": i === isActive,
+              })}
+            >
+              <img src={item.imgSrc} alt={item.alt} />
+               {item.name}
+            </button>
+          </NavLink>
         ))}
       </ul>
     </nav>

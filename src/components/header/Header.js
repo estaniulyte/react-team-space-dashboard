@@ -3,8 +3,8 @@ import Logo from "assets/icons/logo-white.svg"
 import NotificationsIcon from "assets/icons/notifications.svg"
 
 import "./header.scss"
-import Tabs from "./components/tabs";
-import UserProfileButton from "./components/userProfileButton";
+import Tabs from "./components/Tabs";
+import UserProfileButton from "./components/UserProfileButton";
 
 const Header = () => {
   return (

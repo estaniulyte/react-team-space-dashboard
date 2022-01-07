@@ -1,3 +1,3 @@
-import UserProfileButton from "./userProfileButton.js";
+import UserProfileButton from "./UserProfileButton";
 
 export default UserProfileButton;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { ReactComponent as HeartIcon } from "assets/icons/heart.svg";
 
-import UserProfileWidget from "components/header/components/userProfileWidget";
+import UserProfileWidget from "components/header/components/UserProfileWidget";
 
 import "./user-profile-button.scss";
 
