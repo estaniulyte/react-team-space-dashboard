@@ -14,19 +14,19 @@ const Tabs = () => {
   const tabItems = [
     {
       name: "Dashboard",
-      link: "/",
+      link: "/react-team-space-dashboard",
       imgAlt: "Home icon",
       imgSrc: HomeIcon,
     },
     {
       name: "Reservations",
-      link: "/reservations",
+      link: "/react-team-space-dashboard/reservations",
       imgAlt: "Bookmark logo",
       imgSrc: BookmarkIcon,
     },
     {
       name: "Eat-out",
-      link: "/eat-out",
+      link: "/react-team-space-dashboard/eat-out",
       imgAlt: "Compass logo",
       imgSrc: CompassIcon,
     },
