@@ -7,9 +7,9 @@ import EatOut from "pages/EatOut";
 
 const Router = () => (
   <Routes>
-    <Route path="/" element={<Home />}/>
-    <Route path="/reservations" element={<Reservations />} />
-    <Route path="/eat-out" element={<EatOut />} />
+    <Route path="/react-team-space-dashboard/" element={<Home />}/>
+    <Route path="/react-team-space-dashboard/reservations" element={<Reservations />} />
+    <Route path="/react-team-space-dashboard/eat-out" element={<EatOut />} />
   </Routes>
 );
 
