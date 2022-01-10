@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_team_space_dashboard=self.webpackChunkreact_team_space_dashboard||[]).push([[612],{612:function(a,e,t){t.r(e),t.d(e,{default:function(){return c}});t(791);var r=t(184),c=function(){return(0,r.jsx)("div",{children:"EatOut"})}}}]);
+//# sourceMappingURL=612.40883a52.chunk.js.map
