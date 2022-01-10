@@ -1,0 +1,49 @@
+@import 'src/styles/index';
+
+.button {
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+
+  $font-sizes: ("sm": "0.7rem", "md": "0.8rem", "lg": "0.9rem");
+  @each $size, $font-size in $font-sizes {
+    &--size-#{$size} {
+      font-size: #{$font-size};
+    }
+  }
+
+  $paddings: ("sm": "7px 13px", "md": "9px 16px", "lg": "13px 26px");
+  @each $size, $padding in $paddings {
+    &--size-#{$size} {
+      padding: #{$padding};
+    }
+  }
+
+  &--type-primary {
+    background-color: $color-electric-violet;
+    color: $color-white;
+    border-radius: 65px;
+
+    &:hover {
+      background-color: darken($color-electric-violet, 5%);
+    }
+
+    &:active {
+      background-color: darken($color-electric-violet, 10%);
+    }
+  }
+
+  &--type-text {
+    background-color: transparent;
+    color: $color-slate-gray;
+    border: none;
+
+    &:hover {
+      color: darken($color-slate-gray, 30%);
+    }
+
+    &:active {
+      color: darken($color-slate-gray, 60%);
+    }
+  }
+}
