@@ -10,7 +10,7 @@ const Button = ({ text, isDisabled = false, size="md", type="primary" }) => {
       className={classNames("button", {
         [`button--size-${size}`]: true,
         [`button--type-${type}`]: true,
-        "button button--isDisabled": isDisabled
+        "button--isDisabled": isDisabled
       })}
     >
       {text}
