@@ -1,14 +1,13 @@
-import Button from "components/Button";
 import React from "react";
 
 import "./home.scss"
+import RestaurantsSection from "./RestaurantsSection";
 
 const Home = () => {
   return (
-    <div>
-      <Button text="hello" size="md" />
-      Home
-    </div>
+    <main>
+      <RestaurantsSection />
+    </main>
   );
 };
 
