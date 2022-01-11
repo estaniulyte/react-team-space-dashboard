@@ -3,7 +3,10 @@
 .button {
   text-transform: uppercase;
   border: none;
+  box-sizing: border-box;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 
   $font-sizes: ("sm": "0.7rem", "md": "0.8rem", "lg": "0.9rem");
   @each $size, $font-size in $font-sizes {
@@ -16,6 +19,13 @@
   @each $size, $padding in $paddings {
     &--size-#{$size} {
       padding: #{$padding};
+    }
+  }
+
+  $widths: ("sm": "66px", "md": "86px", "lg": "114px");
+  @each $size, $width in $widths {
+    &--size-#{$size} {
+      width: #{$width};
     }
   }
 
