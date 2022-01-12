@@ -10,15 +10,15 @@ const EatOut = React.lazy(() => import("pages/EatOut"));
 
 const Router = () => (
   <Routes>
-    <Route path="/react-team-space-dashboard/" element={<Home />}/>
-    <Route path="/react-team-space-dashboard/reservations"
+    <Route path="/" element={<Home />}/>
+    <Route path="/reservations"
       element={
         <React.Suspense fallback={<>...</>}>
           <Reservations />
         </React.Suspense>
       }
     />
-    <Route path="/react-team-space-dashboard/eat-out"
+    <Route path="/eat-out"
       element={
         <React.Suspense fallback={<>...</>}>
           <EatOut />
