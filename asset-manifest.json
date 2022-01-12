@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-team-space-dashboard/static/css/main.739f40e2.css",
-    "main.js": "/react-team-space-dashboard/static/js/main.d4a5f629.js",
+    "main.js": "/react-team-space-dashboard/static/js/main.f3c09542.js",
     "static/css/780.7c684167.chunk.css": "/react-team-space-dashboard/static/css/780.7c684167.chunk.css",
     "static/js/780.49fb95d1.chunk.js": "/react-team-space-dashboard/static/js/780.49fb95d1.chunk.js",
     "static/css/612.7c684167.chunk.css": "/react-team-space-dashboard/static/css/612.7c684167.chunk.css",
@@ -23,7 +23,7 @@
     "static/media/compass.svg": "/react-team-space-dashboard/static/media/compass.258946e11473530ce30a0a6d163d8af9.svg",
     "static/media/bookmark.svg": "/react-team-space-dashboard/static/media/bookmark.831b379d5818aead077232708ef1d06f.svg",
     "main.739f40e2.css.map": "/react-team-space-dashboard/static/css/main.739f40e2.css.map",
-    "main.d4a5f629.js.map": "/react-team-space-dashboard/static/js/main.d4a5f629.js.map",
+    "main.f3c09542.js.map": "/react-team-space-dashboard/static/js/main.f3c09542.js.map",
     "780.7c684167.chunk.css.map": "/react-team-space-dashboard/static/css/780.7c684167.chunk.css.map",
     "780.49fb95d1.chunk.js.map": "/react-team-space-dashboard/static/js/780.49fb95d1.chunk.js.map",
     "612.7c684167.chunk.css.map": "/react-team-space-dashboard/static/css/612.7c684167.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.739f40e2.css",
-    "static/js/main.d4a5f629.js"
+    "static/js/main.f3c09542.js"
   ]
 }
