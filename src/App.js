@@ -4,7 +4,7 @@ import Router from "routes";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-team-space-dashboard">
       <div className="app">
         <Header />
         <Router />
