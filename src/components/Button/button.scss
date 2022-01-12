@@ -25,7 +25,7 @@
   $widths: ("sm": "66px", "md": "86px", "lg": "114px");
   @each $size, $width in $widths {
     &--size-#{$size} {
-      width: #{$width};
+      min-width: #{$width};
     }
   }
 
