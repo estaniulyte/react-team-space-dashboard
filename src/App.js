@@ -7,7 +7,9 @@ function App() {
     <BrowserRouter basename="/react-team-space-dashboard">
       <div className="app">
         <Header />
-        <Router />
+        <main className="content">
+          <Router />
+        </main>
       </div>
     </BrowserRouter>
   );
