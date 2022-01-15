@@ -8,8 +8,8 @@ const RestaurantsSection = () => {
   return (
     <section className="restaurants-section">
       <BrowseRestaurantsWidget />
-      <div>you</div>
-      <div>here</div>
+      <div></div>
+      <div></div>
     </section>
   );
 };
